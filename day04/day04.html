@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>bullet-screen</title>
+  <link rel="stylesheet" href="day04.css" />
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="day04.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.send').click(function () {
+        $.bulletScreen.send($('#bullet-text').val(), $('.barrage'));
+        $('#bullet-text').val("");
+      });
+      $('.close').click(function () {
+        $.bulletScreen.clear($('.barrage'));
+      });
+      $('#bullet-text').keyup(function (e) {
+        if (e.keyCode == 13) {
+          $.bulletScreen.send($('#bullet-text').val(), $('.barrage'));
+          $('#bullet-text').val("");
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <div class="barrage"></div>
+  <div id="btn">
+    <input type="text" id="bullet-text"></input>
+    <input type="button" class="send" value="发送"></input>
+    <input type="button" class="close" value="清屏"></input>
+  </div>
+</body>
+
+</html>
