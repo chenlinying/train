@@ -1,0 +1,268 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  min-width: 380ox;
+}
+
+html {
+  overflow: auto;
+}
+
+
+.contain {
+  width: 100%;
+}
+
+.header {
+  width: 1200px;
+  background-color:red;
+  height: 60px;
+    margin: 0 auto;
+}
+
+.header-box {
+  padding: 15px 0px;
+  vertical-align: middle;
+  width: 1100px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.header-box-left {
+  color: white;
+  float: left;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 23px;
+}
+
+.header-box-right {
+  float: right;
+  padding-top: 5px;
+
+
+}
+
+.header-box-right a {
+  color: white;
+  margin-left: 5px;
+  text-decoration: none;
+
+
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.banner{
+  width: 1200px;
+  height: 460px;
+  background-color: #fed93a;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin: 0px auto;
+  overflow: hidden;
+  position: relative;
+}
+.banner .pic ul li{
+  list-style: none;
+}
+.banner .pic ul li img{
+	width: 1200px;
+	height: 460px;
+}
+.dot{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  bottom: 30px;
+	left: 500px;
+	margin: 0 auto;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 15px;
+}
+.dot ul li{
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  float: left;
+  margin: 7px 5px;
+  padding-left: 2px;
+}
+.dot ul li:hover{
+  background-color: #cd0b2d;
+}
+.content{
+	margin: 0 auto;
+  width: 1100px;
+  height: 300px;
+}
+ .content-title{
+  margin: 0 auto;
+  width: 1100px;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.content .content-con{
+  margin: 0 auto;
+  width: 1100px;
+  background-color:gainsboro;
+}
+.content .content-con ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+.content .content-con ul>li{
+  display: inline-block;
+  padding: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.content .content-con ul>li>img{
+  width: 80px;
+  height: 80px;
+  
+}
+
+.content .content-con ul>li>p {
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+  padding: 3px;
+  font-weight: bold;
+
+}
+.introduce{
+  width: 1100px;
+  margin: 0 auto;
+ 
+}
+.introduce .caton{
+  display: inline-block;
+}
+
+.introduce .picture-left{ 
+  width: 50%;
+  float:left;
+}
+
+
+.introduce .text-right{
+  width: 45%;
+  float:right;
+  }
+
+  .introduce .picture-right{ 
+    float: right;
+    width: 50%;
+
+  }
+
+.introduce .text-left{
+  float:left;
+  width: 45%;
+  padding: 20px;
+  }
+  .introduce h1{
+    text-align: center;
+    font-style: inherit
+  }
+  .introduce p{
+    font-size: 20px;
+  }
+
+  .bulletin{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .bulletin ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .bulletin ul>li{
+    display: inline-block;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .bulletin ul>li>img{
+    width: 250px;
+    height: 250px;
+    
+  }
+  
+  .bulletin ul>li a {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    padding: 3px;
+    font-weight: bold;
+  
+  }
+
+  .footer{
+    padding: 15px 0px;
+    vertical-align: middle;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer .content-con{
+    margin: 0 auto;
+    width: 1100px;
+  }
+  .footer .content-con ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer .content-con ul>li{
+    display: inline-block;
+    padding: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .footer .content-con ul>li>img{
+    width: 140px;
+    height: 140px;
+    
+  }
+  
+  .footer .content-con ul>li>p {
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+    padding: 3px;
+    font-weight: bold;
+  
+  }
+
+  .botton{
+    margin: 0 auto;
+  }
