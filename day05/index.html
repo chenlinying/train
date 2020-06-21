@@ -17,175 +17,267 @@
 </head>
 
 <body>
-  <div class="contain">
-    <div class="header">
-      <div class="header-box">
-        <div class="header-box-left">
-          <img src="logo.png" style="vertical-align: middle;" width="30px" alt>
-          <span style="vertical-align: middle;">妖精尾巴</span>
-        </div>
-        <div class="header-box-right">
-          <a href="index.html">首页</a>
-          <a href="new.html">新闻</a>
-          <a href="about.html">关于我们</a>
-        </div>
-      </div>
-    </div>
-    <div class="banner">
-      <div class="pic">
-        <div class="left"></div>
-        <ul>
-          <li><a href=""><img
-                src="http://i.17173cdn.com/0561y4/YWxqaGBf/gamebase/game-cover-horizontal/ILhvSObmCgscmml.jpg"
-                alt=""></a></li>
-          <li><a href=""><img src="https://sj.5qwan.com/d/file/upload1/20170616/1497593068840195.jpg" alt=""></a></li>
-          <li><a href=""><img src="http://image.jjmh.com/file/userfiles/images/322574/12.jpg" alt=""></a></li>
-          <li><a href=""><img src="http://www.005.tv/uploads/allimg/170510/33-1F51014245J06.jpg" alt=""></a></li>
-          <li><a href=""><img src="http://img2.100bt.com/upload/ttq/20130414/1365942418160.jpg" alt=""></a></li>
-          <li><a href=""><img
-                src="http://5b0988e595225.cdn.sohucs.com/images/20180121/e052c639ae834d8093d36731696ef1cf.jpeg"
-                alt=""></a></li>
 
-        </ul>
-        <div class="right"></div>
-      </div>
-      <div class="dot">
-        <ul>
-          <li> 1</li>
-          <li> 2</li>
-          <li> 3</li>
-          <li> 4</li>
-          <li> 5</li>
-          <li> 6</li>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="logo" style="width:40px;">
+        <span style="vertical-align: middle;">妖精尾巴</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="new.html">新闻</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">关于我们</a>
+          </li>
         </ul>
       </div>
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://sj.5qwan.com/d/file/upload1/20170616/1497593068840195.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="http://www.005.tv/uploads/allimg/170510/33-1F51014245J06.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="http://image.jjmh.com/file/userfiles/images/322574/12.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
-    <div class="content">
+
+    <div class="container marketing">
       <div class="content-title">
-        <span>服务范围</span>
+        <span>热门产品</span>
       </div>
-      <div class="content-con">
-        <ul>
-          <li>
-            <img src="images/1.png" alt="">
-            <p><span>打到暗黑工会</span></p>
-          </li>
-          <li><img src="images/2.png" alt="">
-            <p><span>英雄合照</span></p>
-          </li>
-          <li><img src="images/3.png" alt="">
-            <p><span>修炼魔法</span></p>
-          </li>
-          <li><img src="images/4.png" alt="">
-            <p><span>宇宙旅行</span></p>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="introduce">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle"
+            src="https://img02.sogoucdn.com/v2/thumb/retype/ext/jpg?appid=10160004&url=http%3A%2F%2Fg.search.alicdn.com%2Fimg%2Fbao%2Fuploaded%2Fi4%2Fi1%2F19511031022505775%2FT1ooMXFa4XXXXXXXXX_%21%210-item_pic.jpg"
+            alt="">
+          <h2>热门销售产品一</h2>
+          <p>妖精的尾巴手办 露西纳兹哈比公仔玩偶 全套6摆件礼物 漫时空精选</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle"
+            src=" https://img03.sogoucdn.com/v2/thumb/retype/ext/jpg?appid=10160004&url=http%3A%2F%2Fimg20.360buyimg.com%2Fn1%2Fjfs%2Ft1%2F18109%2F31%2F12737%2F173709%2F5c99e5d8Ee48c95a8%2Fed9a007a11caccad.jpg"
+            alt="">
+          <h2>热门销售产品二</h2>
+          <p>鸿钧 动漫同款个性钥匙扣 妖精的尾巴亚克力钥匙扣 纳兹 露西 艾露莎挂饰 二次元周边透明书包挂件 3077露西 55MM动漫钥匙扣</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle"
+            src="https://img04.sogoucdn.com/v2/thumb/retype/ext/jpg?appid=10160004&url=https%3A%2F%2Fcbu01.alicdn.com%2Fimg%2Fibank%2F2014%2F574%2F632%2F1629236475_402467725.400x400.jpg"
+            alt="">
+          <h2>热门销售产品三</h2>
+          <p>动漫周边批发艾露莎—妖精的尾巴盒装手办</p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
       <div class="content-title">
-        <span>人物介绍</span>
+        <span>团队介绍</span>
       </div>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> 纳兹·多拉格尼尔
+          </h2>
+          <br>
+          <p class="lead">
+            性别：男<br>
+            所属动漫：《妖精的尾巴》<br>
+            属性： 血型O 齐耳 天然呆 笨蛋 温柔 善良 单纯 型男 阳光 英雄 勇敢 热血 暴躁 坚强 懒散 正义 吃货 白色皮肤 黑色眼睛 碎发 魔导士 粉发<br>
+            简介：纳兹·多拉格尼尔，动漫《妖精的尾巴》第一主角。 有着樱桃色的头发和温暖笑容的少年。是妖精的尾巴工会的一员并且是一个火焰魔法师。性格有点脱线,
+            单细胞动物。爱吃火，火焰大餐对他来说是再好不过的美食。他是妖精的尾巴排名第一的闯祸精，魔法 是能吃火，将火焰缠绕在身上并能将自身体质转化为龙的体质的火之灭龙魔法，是古代魔法的一种。如
+            同其他的灭龙魔导士一样，有超乎常人的嗅觉。
 
-      <div class="caton">
-        <div class="picture-left">
-          <img src="images/in1.jpg" width="550px" alt=""></div>
-        <div class="text-right">
-          <h1>纳兹·多拉格尼尔</h1>
-          <p>
-            纳兹‧多拉格尼尔是日本动漫《妖精的尾巴》及其衍生作品中的角色，有着樱色的头发，
-            性格直率、毫无心机又有点脱线，魔法公会“妖精尾巴”的一员，是一个充满信念的火之灭龙魔导士。
-            纳兹是杰尔夫·多拉格尼尔为了杀死自己，用自己弟弟的身体所创造的最强恶魔。
           </p>
+
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="images/in1.jpg" width="550px" alt="">
         </div>
       </div>
 
+      <hr class="featurette-divider">
 
-
-      <div class="caton">
-
-        <div class="text-left">
-          <h1>露西·哈特菲利亚</h1>
-          <p>
-            露西·哈特菲利亚是日本动漫《妖精的尾巴》及其衍生作品中的角色，
-            魔法公会“妖精尾巴”的星灵魔导士，与纳兹、艾露莎、格雷 、温蒂等组成最强小队。
-            她拥有一头金发，身材姣好，擅长吐槽，性格活泼开朗、重视伙伴和公会成员，在与同伴的冒险中最终成为一名十分优秀的星灵魔导士。
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">露西·哈特菲利亚</h2>
+          <br>
+          <p class="lead">性别：女<br>
+            所属动漫：《妖精的尾巴》<br>
+            属性： 巨蟹座 齐胸 白色皮肤 长发飘逸 开朗 元气 黑色眼睛 活泼 魔导士 乙女 黄发<br>
+            简介：露西·哈特菲利亚，动漫《妖精的尾巴》中的人物。动漫《妖精的尾巴》女主角，是可以通过钥匙和契约打开星灵界之门召唤星灵作战的星灵魔导士。算是“妖精尾巴”里面最正常的成员。是哈特菲利亚集团的千金。与朱比安一同使用过合体魔法，七年后，魔力提升，星灵能够二体同开，并且能做到星灵之间的合体魔法。
           </p>
         </div>
-        <div class="picture-right"><img src="images/in2.jpg" width="550px" alt=""></div>
-      </div>
-
-      <div class="caton">
-        <div class="picture-left"><img src="images/in4.jpg" width="550px" alt=""></div>
-        <div class="text-right">
-          <h1>温蒂·玛贝尔</h1>
-          <p>
-            温蒂·玛贝尔是日本动漫《妖精的尾巴》及其衍生作品中的角色，“妖精尾巴”公会成员之一，天空之灭龙魔导士，她胆小善良、体贴入微，被称为“天空的巫女”温蒂。
-            温蒂是唯一一个不怕交通工具的灭龙魔导士。
-          </p>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="http://img.peipeilove.com/img/AnimeImage/2017/20171209/w_2017120911212321239.jpg"
+            width="550px" alt="">
         </div>
       </div>
 
+      <hr class="featurette-divider">
 
-
-      <div class="caton">
-
-        <div class="text-left">
-          <h1>格雷·佛尔帕斯塔
-          </h1>
-          <p>
-            格雷·佛尔帕斯塔是日本动漫《妖精的尾巴》及其衍生作品中的角色，魔法公会“妖精尾巴”的冰之造型魔导士，冰之魔导士乌鲁的徒弟。
-            作为冰之造型魔导士，格雷可以把冰制成各种各样的形状来作为武器，实力在公会中属于顶尖水平，但有脱衣服的怪癖。后来继承父亲银的灭恶魔法成为冰之灭恶魔导士，立志打倒恶魔END。
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">温蒂·玛贝尔 </h2>
+          <br>
+          <p class="lead">
+            性别：女 <br>
+            所属动漫：《妖精的尾巴》 <br>
+            属性： 及腰 白色皮肤 长发飘逸 loli 黑色眼睛 贫乳 萌 蓝发 <br>
+            简介：温蒂·玛贝尔，动漫《妖精的尾巴》中的人物。动漫《妖精的尾巴》主角之一。幼时被天龙格兰帝列抚养，在天龙于X777年7月7日失踪之后她被艾德拉斯的杰拉尔(密斯特·冈)所救，之后又被托付给罗宾鲁，罗宾鲁为了照顾温蒂创造了妖猫之宿公会，涅槃被破坏后罗
           </p>
         </div>
-        <div class="picture-right"><img src="images/in3.jpg" width="550px" alt=""></div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500"
+            src="http://img.peipeilove.com/img/AnimeImage/2017/20170507/w_29c357be0dbe4679b53d80188c2f7753.jpg"
+            width="550px" alt="">
+        </div>
       </div>
 
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">艾露莎·舒卡勒托</h2>
+          <br>
+          <p class="lead">性别：女<br>
+            所属动漫：《妖精的尾巴》<br>
+            属性： 天秤座 及腰 女王 勇敢 坚强 白色皮肤 长发飘逸 黑色眼睛 剑士 豪爽 魔导士 红发<br>
+            简介：艾露莎·舒卡勒托，动漫《妖精的尾巴》中的人物。艾露莎·舒卡勒托（Erza·Scarlet），日本热血漫《妖精的尾巴》主要人物之一。S级（铠甲）魔导士，妖精尾巴最强的女魔导士，被人称为“妖精女王”艾露莎。因对事较真、严守纪律是出了名的“风纪委员”大家都有点害怕，但她却又是妖精尾巴公会里除会长外最得人心的魔导士，在关键的时刻大家都会听她的。
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500"
+            src="http://img.peipeilove.com/img/AnimeImage/2017/20170507/w_9eaa51b5b9b2452d91cea6a8aed8911a.jpg"
+            width="550px" alt="">
+        </div>
+      </div>
 
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">格雷·佛尔帕斯塔 </h2>
+          <br>
+          <p class="lead">
+            性别：男<br>
+            所属动漫：《妖精的尾巴》<br>
+            属性： 型男 英雄 勇敢 热血 短发 坚强 正义 黄色皮肤 黑色眼睛 碎发 魔导士 裸露狂<br>
+            简介：佛尔帕斯塔，《妖精的尾巴》中的人物，之造型魔导士。可以把冰改变成各种各样的形状做为武器。在妖尾中实力也很高，但是有着喜欢脱衣服的怪癖。</p>
+
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="http://img.peipeilove.com/img/AnimeImage/2017/20170507/w_2017050710360036059.jpg"
+            width="550px" alt="">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </div>
 
     </div>
-    <div class="bulletin">
+    <div class="container bulletin">
       <div class="content-title">
         <span>新闻动态</span>
       </div>
-      <div>
-        <ul class="pul">
-        </ul>
+      <!-- Three columns of text below the carousel -->
+      <div class="row" id="pul">
 
       </div>
-
-    </div>
-    <div class="footer" style="background-color:gainsboro;">
-      <div class="content-con">
-        <ul>
-          <li>
-            <img src="images/address.png" alt="">
-            <p><span>福建仓山区万达广场B区</span></p>
-          </li>
-          <li><img src="images/you.png" alt="">
-            <p><span>admin@example.com</span></p>
-          </li>
-          <li><img src="images/telephone.png" alt="">
-            <p><span>400-123-4654</span></p>
-          </li>
-          <li><img src="images/er.png" alt="">
-            <p><span>想了解更多吗</span></p>
-          </li>
-        </ul>
-      </div>
-      <div class="botton">
-        <b style="font-size: 20px;text-align: initial;"> 版权所有©rubbit</b>
-      </div>
-
     </div>
 
+    <hr class="featurette-divider">
+    <footer class="container bottoning bg-light">
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="images/address.png">
+          <p>福建仓山区万达广场B区</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/you.png">
+          <p>admin@example.com</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="images/telephone.png">
+          <p>400-123-4654</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/er.png">
+          <p>想了解更多吗</p>
+        </div>
+      </div>
+      <div style="  margin: 0 auto;
+        text-align: center;font-size: 20px;color:black;">
+        <b> 版权所有©妖精尾巴</b>
+      </div>
+    </footer>
+  </main>
 
-
-
-
-
-  </div>
 </body>
 
 </html>

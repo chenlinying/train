@@ -3,67 +3,87 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
   <title>妖精尾巴</title>
   <link rel="shortcut icon" href="logo.ico">
   <script src="jquery-3.3.1.min.js"></script>
-  <link rel="stylesheet" href="detail.css" />
   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="detail.js"></script>
+  <link rel="stylesheet" href="detail.css" />
+  <script type="text/javascript" src="detail.js"></script>
 </head>
 
 <body>
-  <div class="content">
-    <div class="header">
-      <div class="header-box">
-        <div class="header-box-left">
-          <img src="logo.png" style="vertical-align: middle;" width="30px" alt>
-          <span style="vertical-align: middle;">妖精尾巴</span>
-        </div>
-        <div class="header-box-right">
-          <a href="index.html">首页</a>
-          <a href="new.html">新闻</a>
-          <a href="about.html">关于我们</a>
-        </div>
-      </div>
-      <div class="header-botton">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="logo" style="width:40px;">
         <span style="vertical-align: middle;">妖精尾巴</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="new.html">新闻</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">关于我们</a>
+          </li>
+        </ul>
       </div>
-    </div>
-
-    <div class="container">
-
-    </div>
-    <div class="footer">
-
-      <div class="footer-box" style="background-color:gainsboro;">
-        <div class="content-con">
-          <ul>
-            <li>
-              <img src="images/address.png" alt="">
-              <p><span>福建仓山区万达广场B区</span></p>
-            </li>
-            <li><img src="images/you.png" alt="">
-              <p><span>admin@example.com</span></p>
-            </li>
-            <li><img src="images/telephone.png" alt="">
-              <p><span>400-123-4654</span></p>
-            </li>
-            <li><img src="images/er.png" alt="">
-              <p><span>想了解更多吗</span></p>
-            </li>
-          </ul>
-        </div>
-        <div class="botton">
-          <b style="font-size: 20px;text-align: initial;"> 版权所有©rubbit</b>
-        </div>
-      </div>
-    </div>
+    </nav>
+  </header>
+  <div class="header-botton" style="margin: 0 auto;
+      text-align: center;
+      font-size: 40px;
+      padding-top: 60px;
+      font-weight: bold;">
+    <span></span>
   </div>
+  <hr class="featurette-divider">
+  <div class="container content">
+
+
+  </div>
+
+  <hr class="featurette-divider">
+  <footer class="container bottoning bg-light">
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+          src="images/address.png">
+        <p>福建仓山区万达广场B区</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/you.png">
+        <p>admin@example.com</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+          src="images/telephone.png">
+        <p>400-123-4654</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/er.png">
+        <p>想了解更多吗</p>
+      </div>
+    </div>
+    <div style="  margin: 0 auto;
+      text-align: center;font-size: 20px;color:black;">
+      <b> 版权所有©妖精尾巴</b>
+    </div>
+  </footer>
+
 </body>
 
 </html>

@@ -1,99 +1,80 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
 body {
-  margin: 0px;
-  padding: 0px;
-  height: auto;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  min-width: 380ox;
-}
-
-html {
-  overflow: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
 }
 
 
-.contain {
-  width: 100%;
-}
-
-.header {
-  width:1200px;
-  background-color:whitesmoke;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.header-box {
-  padding: 15px 0px;
-  padding-left: 30px;
-  vertical-align: middle;
-  width: 1200px;
-  margin: 0 auto;
-  height: 60px;
-  font-weight: bold;
-}
-
-.header-box-left {
-  color: black;
-  float: left;
-  align-items: center;
-  vertical-align: middle;
-  font-size: 23px;
-}
-
-.header-box-right {
-  float: right;
-  padding-top: 5px;
-
-
-}
-
-.header-box-right a {
-  color:black;
-  margin-left: 5px;
-  text-decoration: none;
-}
-
-.header-botton {
-  width: 1100px;
+.content-title{
   margin: 0 auto;
   text-align: center;
-
+  font-size: 40px;
+  padding-bottom: 60px;
+  font-weight: bold;
 }
-.header-botton span{
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 
-  font-size: 30px;
-  color: black;
-  padding: 40px;
-
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
 }
 
-  .content {
-    width: 1100px;
-    margin: 0 auto;
-  }
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
 
-  .picture {
-    padding: 20px;
-    float: left;
-    clear: both;
-  }
-  .text{
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+  #text{
     padding: 8px;
   }
-  .text ul{
+  #text ul{
     list-style-type: none;
     
   }
 
-  .text ul>li{
+  #text ul>li{
     list-style-type: none;
     padding: 10px;
   
   
   }
   
-  .text ul>li>img{
+  #text ul>li>img{
     width: 80px;
     height: 40px;
     display: inline-block; 
@@ -101,51 +82,51 @@ html {
   }
 
 
-  .footer{
-    padding: 15px 0px;
-    vertical-align: middle;
-    width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-    margin: 0 auto;
-    text-align: center;
-    }
-    
-    .footer .content-con{
-    margin: 0 auto;
-    width: 1100px;
-    }
-    .footer .content-con ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 auto;
-    }
-    .footer .content-con ul>li{
-    display: inline-block;
-    padding: 60px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    }
-    
-    .footer .content-con ul>li>img{
-    width: 140px;
-    height: 140px;
-    
-    }
-    
-    .footer .content-con ul>li>p {
-    text-align: center;
-    margin: 0;
-    font-size: 17px;
-    padding: 3px;
-    font-weight: bold;
-    
-    }
-    
-    .botton{
-    margin: 0 auto;
-    }
+
+/* footer
+-------------------------------------------------- */
+.bottoning{
+  padding-top: 50px;
+}
+.bottoning .col-lg-3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.bottoning h4 {
+  font-weight: 400;
+}
+
+.bottoning .col-lg-3 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.bottoning img{
+  width: 150px;
+  height: 150px;
+  
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+

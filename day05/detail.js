@@ -25,7 +25,7 @@ $(document).ready(function () {
           $('.header-botton').html("<span>" + item.title + "</span>");
 
           strhtml += "<div class='space'><img class='card-img-top' src=" + item.src + " alt='' style='width:100%'><div class='text'>" + item.text + "</div></div>"
-          $('.container').html(strhtml);
+          $('.content').html(strhtml);
         }
 
       })
