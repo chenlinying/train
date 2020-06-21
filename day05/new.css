@@ -73,8 +73,7 @@ body {
 
 .page{
   margin:0 auto;
-  position: relative;
-  left: 500px;
+  text-align: center;
 }
 .card{
   margin-bottom: 1.5rem;
