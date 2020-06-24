@@ -6,7 +6,7 @@
       odiv.html(val);
       odiv.css({
         position: 'absolute',
-        fontSize: '20px',
+        fontSize: Math.random() * 20 + 10 + 'px',
         display: 'block',
         whiteSpace: 'nowrap'
       });
@@ -27,15 +27,16 @@
     },
     move: function (odiv, container) {
       var i = 0;
+      var speed = Math.floor(Math.random() * 5) + 1;
       var timer = setInterval(function () {
         odiv.css({
-          right: (i += 1) + "px"
+          right: (i += speed) + "px"
         });
         if ((odiv.offset().left + odiv.width()) < container.offset().left) {
           odiv.remove();
           clearInterval(timer)
         }
-      }, 5);
+      }, 20);
       this.timers.push(timer);
     },
     clear: function (container) {
